@@ -1,9 +1,5 @@
-import {
-  GithubIcon,
-  InstagramIcon,
-  LinkedinIcon,
-  TwitterIcon,
-} from './SocialMediaIcons/index';
+import { FaWhatsapp, FaInstagram, FaTwitter } from 'react-icons/fa';
+
 
 const Footer = () => {
   const footerItems = [
@@ -64,17 +60,18 @@ const Footer = () => {
     },
   ];
 
+
   const socialMediaList = [
     {
-      Icon: GithubIcon,
+      Icon: FaWhatsapp,
       href: 'https://api.whatsapp.com/send/?phone=7645046696&text&type=phone_number&app_absent=0',
     },
     {
-      Icon: InstagramIcon,
+      Icon: FaInstagram,
       href: 'https://www.instagram.com/manojrajak7479/',
     },
     {
-      Icon: TwitterIcon,
+      Icon: FaTwitter,
       href: '/',
     },
   ];

@@ -11,6 +11,8 @@ import {
   FiStar,
 } from 'react-icons/fi';
 
+import { useEffect, useState } from 'react';
+
 const ring = cva(
   [
     'absolute',
@@ -41,6 +43,13 @@ const BgRing = (props) => {
 };
 
 export default function Home({ products }) {
+
+	const [ringVisible, setRingVisible] = useState(false);
+
+  useEffect(() => {
+    setRingVisible(true);
+  }, []);
+
   return (
     <div>
       <MyHead />
@@ -128,25 +137,29 @@ export default function Home({ products }) {
             </p>
           </NextLink>
         </div>
+      </section>
 
-        <section className="flex items-center max-lg:flex-col-reverse justify-around gap-8 max-lg:text-center">
-          <div className="relative">
-            <img
-              width={370}
-              src="/images/app/oie_Dyji5uNOjrWG.png"
-              alt="Image of the mobile app"
-            />
+			<section className="flex items-center max-lg:flex-col-reverse justify-around gap-8 max-lg:text-center">
+        <div className="relative">
+          <img
+            width={370}
+            src="/images/app/oie_Dyji5uNOjrWG.png"
+            alt="Image of the mobile app"
+          />
 
-            <BgRing size={'small'} />
-            <BgRing size={'medium'} />
-            <BgRing size={'large'} />
+          {ringVisible && (
+            <>
+              <BgRing size={'small'} />
+              <BgRing size={'medium'} />
+              <BgRing size={'large'} />
 
-            <span className="block w-8 h-8 rounded-full bg-yellow-500 absolute top-16 -right-4"></span>
-            <span className="block w-4 h-4 rounded-full bg-slate-400 absolute top-12 -left-4"></span>
-            <span className="block w-5 h-5 rounded-full bg-yellow-500 absolute bottom-24 -left-8"></span>
-            <span className="block w-2 h-2 rounded-full bg-slate-400 absolute bottom-32 -right-8"></span>
-          </div>
-        </section>
+              <span className="block w-8 h-8 rounded-full bg-yellow-500 absolute top-16 -right-4"></span>
+              <span className="block w-4 h-4 rounded-full bg-slate-400 absolute top-12 -left-4"></span>
+              <span className="block w-5 h-5 rounded-full bg-yellow-500 absolute bottom-24 -left-8"></span>
+              <span className="block w-2 h-2 rounded-full bg-slate-400 absolute bottom-32 -right-8"></span>
+            </>
+          )}
+        </div>
       </section>
     </div>
   );
