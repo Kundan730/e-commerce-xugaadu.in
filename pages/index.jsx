@@ -92,8 +92,7 @@ export default function Home({ products }) {
                 Money-Back Guarantee
               </h3>
               <p className="text-gray-700 text-center">
-                Not satisfied with your purchase? Return it within 30 days for a
-                full refund.
+							If an item arrived damaged or you&apos;ve changed your mind, you can send it back for a full refund.
               </p>
             </li>
 
@@ -103,8 +102,7 @@ export default function Home({ products }) {
                 Premium Quality
               </h3>
               <p className="text-gray-700 text-center">
-                Experience the finest craftsmanship with our carefully curated
-                selection of products.
+							Designed to last, each of our products has been crafted with the finest materials.
               </p>
             </li>
           </ul>
@@ -139,7 +137,7 @@ export default function Home({ products }) {
         </div>
       </section>
 
-			<section className="flex items-center max-lg:flex-col-reverse justify-around gap-8 max-lg:text-center">
+			<section className="flex items-center max-lg:flex-col-reverse justify-around gap-8 max-lg:text-center overflow-hidden">
         <div className="relative">
           <img
             width={370}
