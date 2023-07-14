@@ -3,15 +3,105 @@ import NextLink from 'next/link';
 import { Categories, Hero, MyHead, ProductsGrid } from '../components';
 import { db } from '../config';
 import { Product } from '../models';
-import BgRing from '../components/BgRing';
+import { cva } from 'class-variance-authority';
+import {
+  FiTruck,
+  FiCreditCard,
+  FiCornerDownLeft,
+  FiStar,
+} from 'react-icons/fi';
+
+const ring = cva(
+  [
+    'absolute',
+    'top-1/2',
+    'left-1/2',
+    '-translate-x-1/2',
+    '-translate-y-1/2',
+    '-z-10',
+    'border-2',
+    'rounded-full',
+  ],
+  {
+    variants: {
+      size: {
+        small: ['h-80', 'w-80'],
+        medium: ['h-[25rem]', 'w-[25rem]'],
+        large: ['h-[30rem]', 'w-[30rem]'],
+      },
+    },
+    defaultVariants: {
+      size: 'medium',
+    },
+  }
+);
+
+const BgRing = (props) => {
+  return <span className={ring(props.size)} />;
+};
 
 export default function Home({ products }) {
   return (
     <div>
       <MyHead />
       <Hero />
-      {/* <AppShowCase /> */}
       <Categories />
+
+      {/* Why choose us section */}
+
+      <section className="bg-gray-100 py-12">
+        <div className="container mx-auto">
+          <header className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-gray-800">Why Choose Us?</h2>
+          </header>
+
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <li className="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 transition duration-300">
+              <FiTruck className="w-16 h-16 text-primary mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                Free Shipping
+              </h3>
+              <p className="text-gray-700 text-center">
+                Enjoy free shipping on all orders for initial days.
+              </p>
+            </li>
+
+            <li className="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 transition duration-300">
+              <FiCreditCard className="w-16 h-16 text-primary mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                Easy Payments
+              </h3>
+              <p className="text-gray-700 text-center">
+                We offer secure and hassle-free payment options for a seamless
+                checkout experience.
+              </p>
+            </li>
+
+            <li className="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 transition duration-300">
+              <FiCornerDownLeft className="w-16 h-16 text-primary mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                Money-Back Guarantee
+              </h3>
+              <p className="text-gray-700 text-center">
+                Not satisfied with your purchase? Return it within 30 days for a
+                full refund.
+              </p>
+            </li>
+
+            <li className="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 transition duration-300">
+              <FiStar className="w-16 h-16 text-primary mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                Premium Quality
+              </h3>
+              <p className="text-gray-700 text-center">
+                Experience the finest craftsmanship with our carefully curated
+                selection of products.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       {/* main products grid */}
       <section
         aria-labelledby="products-heading"
@@ -38,7 +128,8 @@ export default function Home({ products }) {
             </p>
           </NextLink>
         </div>
-        <section className="flex items-center max-lg:flex-col-reverse justify-around gap-8 max-lg:text-center overflow-hidden">
+
+        <section className="flex items-center max-lg:flex-col-reverse justify-around gap-8 max-lg:text-center">
           <div className="relative">
             <img
               width={370}

@@ -67,7 +67,7 @@ const Footer = () => {
   const socialMediaList = [
     {
       Icon: GithubIcon,
-      href: '#',
+      href: 'https://api.whatsapp.com/send/?phone=7645046696&text&type=phone_number&app_absent=0',
     },
     {
       Icon: InstagramIcon,
@@ -75,7 +75,7 @@ const Footer = () => {
     },
     {
       Icon: TwitterIcon,
-      href: '#',
+      href: '/',
     },
   ];
 

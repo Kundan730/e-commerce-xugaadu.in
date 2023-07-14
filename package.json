@@ -18,8 +18,7 @@
 		"@vercel/analytics": "^0.1.6",
 		"axios": "^0.26.0",
 		"bcryptjs": "^2.4.3",
-		"class-variance-authority": "^0.6.1",
-		"faker": "^5.5.3",
+		"class-variance-authority": "^0.4.0",
 		"js-cookie": "^2.2.1",
 		"jsonwebtoken": "^9.0.1",
 		"mongoose": "^6.2.3",
@@ -30,7 +29,8 @@
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
 		"react-hook-form": "^7.11.0",
-		"react-hot-toast": "^2.4.0"
+		"react-hot-toast": "^2.4.0",
+		"react-icons": "^4.10.1"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.8",
