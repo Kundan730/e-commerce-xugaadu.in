@@ -25,8 +25,8 @@ const ring = cva(
   }
 );
 
-const BgRing = (props) => {
-  return <span className={ring(props.size)} />;
+const BgRing = ({ size }) => {
+  return <span className={ring({ size })} />;
 };
 
 export default BgRing;

@@ -3,7 +3,6 @@ import NextLink from 'next/link';
 import { Categories, Hero, MyHead, ProductsGrid } from '../components';
 import { db } from '../config';
 import { Product } from '../models';
-import { cva } from 'class-variance-authority';
 import {
   FiTruck,
   FiCreditCard,
@@ -11,44 +10,10 @@ import {
   FiStar,
 } from 'react-icons/fi';
 
-import { useEffect, useState } from 'react';
-
-const ring = cva(
-  [
-    'absolute',
-    'top-1/2',
-    'left-1/2',
-    '-translate-x-1/2',
-    '-translate-y-1/2',
-    '-z-10',
-    'border-2',
-    'rounded-full',
-  ],
-  {
-    variants: {
-      size: {
-        small: ['h-80', 'w-80'],
-        medium: ['h-[25rem]', 'w-[25rem]'],
-        large: ['h-[30rem]', 'w-[30rem]'],
-      },
-    },
-    defaultVariants: {
-      size: 'medium',
-    },
-  }
-);
-
-const BgRing = (props) => {
-  return <span className={ring(props.size)} />;
-};
+// import { useEffect, useState } from 'react';
+import AppShowCase from "../components/AppShowCase";
 
 export default function Home({ products }) {
-
-	const [ringVisible, setRingVisible] = useState(false);
-
-  useEffect(() => {
-    setRingVisible(true);
-  }, []);
 
   return (
     <div>
@@ -137,28 +102,9 @@ export default function Home({ products }) {
         </div>
       </section>
 
-			<section className="flex items-center max-lg:flex-col-reverse justify-around gap-8 max-lg:text-center overflow-hidden">
-        <div className="relative">
-          <img
-            width={370}
-            src="/images/app/oie_Dyji5uNOjrWG.png"
-            alt="Image of the mobile app"
-          />
-
-          {ringVisible && (
-            <>
-              <BgRing size={'small'} />
-              <BgRing size={'medium'} />
-              <BgRing size={'large'} />
-
-              <span className="block w-8 h-8 rounded-full bg-yellow-500 absolute top-16 -right-4"></span>
-              <span className="block w-4 h-4 rounded-full bg-slate-400 absolute top-12 -left-4"></span>
-              <span className="block w-5 h-5 rounded-full bg-yellow-500 absolute bottom-24 -left-8"></span>
-              <span className="block w-2 h-2 rounded-full bg-slate-400 absolute bottom-32 -right-8"></span>
-            </>
-          )}
-        </div>
-      </section>
+			<main className="flex flex-col gap-10">
+				<AppShowCase />
+			</main>
     </div>
   );
 }

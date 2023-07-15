@@ -72,7 +72,7 @@ const Footer = () => {
     },
     {
       Icon: FaTwitter,
-      href: '/',
+      href: '/twitter',
     },
   ];
 
@@ -96,7 +96,6 @@ const Footer = () => {
                 <a
                   className="block text-gray-200 hover:text-white hover:-translate-y-0.5 transition-all"
                   href={item.href}
-                  target="_blank"
                   rel="noreferrer"
                 >
                   <item.Icon className="text-2xl fill-current" />

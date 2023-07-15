@@ -66,7 +66,7 @@ const Navbar = ({ sticky }) => {
 											alt=''
 											className='w-full h-full text-white'
 											width={150}
-											height={150}
+											height={65}
 										/>
 									</div>
 								</NextLink>

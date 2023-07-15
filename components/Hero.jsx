@@ -8,7 +8,7 @@ const Hero = () => {
 				<div className='relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static'>
 					<div className='sm:max-w-lg'>
 						<h1 className='text-4xl font font-bold tracking-tight text-gray-100 sm:text-6xl'>
-						Where Style Meets Innovation: Our Xugaadu Online Store, Launching Soon!
+						Where Fashion Meets Innovation: Xugaadu Online Store, Launching Soon!
 						</h1>
 						<p className='mt-4 text-xl text-gray-500'>
 							We&apos;ve been working hard to curate a selection of stylish and affordable pieces that you&apos;ll love.
@@ -27,7 +27,7 @@ const Hero = () => {
 												<Image
 													width={176}
 													height={256}
-													src='https://i.postimg.cc/F1tpBjds/tile-01.jpg'
+													src='https://i.postimg.cc/CLLbwrYT/tile-02.jpg'
 													alt=''
 													className='w-full h-full object-center object-cover'
 												/>
@@ -36,7 +36,7 @@ const Hero = () => {
 												<Image
 													width={176}
 													height={256}
-													src='https://i.postimg.cc/CLLbwrYT/tile-02.jpg'
+													src='https://i.postimg.cc/cLvYnKrF/tile-06.jpg'
 													alt=''
 													className='w-full h-full object-center object-cover'
 												/>
@@ -76,7 +76,7 @@ const Hero = () => {
 												<Image
 													width={176}
 													height={256}
-													src='https://i.postimg.cc/cLvYnKrF/tile-06.jpg'
+													src='https://i.postimg.cc/F1tpBjds/tile-01.jpg'
 													alt=''
 													className='w-full h-full object-center object-cover'
 												/>
