@@ -5,7 +5,7 @@ const nextConfig = {
 		ignoreDuringBuilds: true,
 	},
 	images: {
-		domains: ['i.postimg.cc', 'images.unsplash.com']
+		domains: ['i.postimg.cc', 'images.unsplash.com', 'staticinm2.ishalife.com']
 	},
 }
 
