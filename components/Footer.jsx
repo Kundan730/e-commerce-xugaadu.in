@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -64,15 +64,19 @@ const Footer = () => {
   const socialMediaList = [
     {
       Icon: FaWhatsapp,
-      href: 'https://api.whatsapp.com/send/?phone=7645046696&text&type=phone_number&app_absent=0',
+      href: '',
     },
     {
       Icon: FaInstagram,
-      href: 'https://www.instagram.com/manojrajak7479/',
+      href: 'https://www.instagram.com/xugaadu.in/?igshid=MzNlNGNkZWQ4Mg%3D%3D',
     },
     {
       Icon: FaTwitter,
       href: '/twitter',
+    },
+    {
+      Icon: FaEnvelope,
+      href: 'mailto:xugaadu@gmail.com',
     },
   ];
 
