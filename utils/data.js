@@ -277,7 +277,7 @@ const data = {
 			slug: 'adiyogi statue',
 			category: 'Sculpture',
 			images: [
-				'https://staticinm2.ishalife.com/in/pub/media/catalog/product/cache/dbcf6d119f171892aed83142c87fa8b0/a/r/artboard_2_164.jpg',
+				'https://i.postimg.cc/3Jq1jLJF/artboard-3-1-1.jpg',
 				'https://staticinm2.ishalife.com/in/pub/media/catalog/product/cache/dbcf6d119f171892aed83142c87fa8b0/1/_/1.untitled-1_0031_layer_1.jpg',
 				'https://staticinm2.ishalife.com/in/pub/media/catalog/product/cache/dbcf6d119f171892aed83142c87fa8b0/3/_/3.untitled-1_0030_layer_69.jpg',
 				'https://staticinm2.ishalife.com/in/pub/media/catalog/product/cache/dbcf6d119f171892aed83142c87fa8b0/4/_/4.untitled-1_0029_layer_66.jpg',
@@ -313,7 +313,7 @@ const data = {
 			slug: 'lord buddha',
 			category: 'Sculpture',
 			images: [
-				'https://i.postimg.cc/NM8GDrxg/91-Fwd-CVfc-JL-SX679.jpg',
+				'https://i.postimg.cc/brsYQY3g/71rs5116f-EL-SY879.jpg',
 				'https://i.postimg.cc/PxdntVmj/717-MZx-Rc-CVL-SX679.jpg',
 				'https://i.postimg.cc/pTkbyQZn/71s1q9-FSwt-L-SX679.jpg',
 				'https://i.postimg.cc/2y6pWqc9/718-Thh-LDib-L-SX679.jpg',
