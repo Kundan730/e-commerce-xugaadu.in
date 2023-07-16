@@ -9,6 +9,11 @@ const categories = [
 		imageSrc: 'https://i.postimg.cc/BbjxR1S8/rose3.jpg',
 	},
 	{
+		name: 'Sculpture',
+		href: '/search?category=Sculptur',
+		imageSrc: 'https://images.unsplash.com/photo-1599379126660-d10b7e1831c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+	},
+	{
 		name: 'T-Shirts',
 		href: '/search?category=T-shirts',
 		imageSrc: 'https://i.postimg.cc/NMf87zZk/naruto3.jpg',
@@ -17,12 +22,6 @@ const categories = [
 		name: 'Jackets',
 		href: '/search?category=Jackets',
 		imageSrc: 'https://i.postimg.cc/3Jw6JLRp/bomber3.jpg',
-	},
-
-	{
-		name: 'Sculpture',
-		href: '/search?category=Sculptur',
-		imageSrc: 'https://images.unsplash.com/photo-1599379126660-d10b7e1831c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
 	},
 ]
 
