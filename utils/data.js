@@ -272,60 +272,6 @@ const data = {
 			description:
 			'<p>Dummy Text:- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem nulla pharetra. Faucibus a pellentesque sit amet porttitor eget. Condimentum lacinia quis vel eros donec ac odio tempor orci. Ornare aenean euismod elementum nisi quis eleifend quam. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. In fermentum posuere urna nec tincidunt. Commodo sed egestas egestas fringilla. Mauris vitae ultricies leo integer malesuada nunc vel risus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Faucibus et molestie ac feugiat sed lectus vestibulum. Aliquam faucibus purus in massa tempor nec feugiat. A lacus vestibulum sed arcu non odio euismod lacinia.</p>',
 		},
-		{
-			name: 'Adiyogi Statue',
-			slug: 'adiyogi statue',
-			category: 'Sculpture',
-			images: [
-				'https://i.postimg.cc/3Jq1jLJF/artboard-3-1-1.jpg',
-				'https://staticinm2.ishalife.com/in/pub/media/catalog/product/cache/dbcf6d119f171892aed83142c87fa8b0/1/_/1.untitled-1_0031_layer_1.jpg',
-				'https://staticinm2.ishalife.com/in/pub/media/catalog/product/cache/dbcf6d119f171892aed83142c87fa8b0/3/_/3.untitled-1_0030_layer_69.jpg',
-				'https://staticinm2.ishalife.com/in/pub/media/catalog/product/cache/dbcf6d119f171892aed83142c87fa8b0/4/_/4.untitled-1_0029_layer_66.jpg',
-			],
-			price: 350,
-			brand: 'Adiyogi',
-			rating: 0,
-			numReviews: 0,
-			countInStock: 20,
-			description:
-			'<p>Dummy Text:- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem nulla pharetra. Faucibus a pellentesque sit amet porttitor eget. Condimentum lacinia quis vel eros donec ac odio tempor orci. Ornare aenean euismod elementum nisi quis eleifend quam. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. In fermentum posuere urna nec tincidunt. Commodo sed egestas egestas fringilla. Mauris vitae ultricies leo integer malesuada nunc vel risus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Faucibus et molestie ac feugiat sed lectus vestibulum. Aliquam faucibus purus in massa tempor nec feugiat. A lacus vestibulum sed arcu non odio euismod lacinia.</p>',
-		},
-		{
-			name: 'Laxmi Ganesha',
-			slug: 'laxmi ganesha',
-			category: 'Sculpture',
-			images: [
-				'https://i.postimg.cc/zfksvSDY/81-Ob-Cx00-Fn-L-SX679.jpg',
-				'https://i.postimg.cc/Ls0rj4Px/81-LTZqy-u-L-SX679.jpg',
-				'https://i.postimg.cc/m2GKY5cW/91-O2-IH-rn1-L-SX679.jpg',
-				'https://i.postimg.cc/gkqQNHRX/81qymcv-Gt-L-SX679.jpg',
-			],
-			price: 200,
-			brand: 'Laxmi Ganesha',
-			rating: 0,
-			numReviews: 0,
-			countInStock: 20,
-			description:
-			'<p>Dummy Text:- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem nulla pharetra. Faucibus a pellentesque sit amet porttitor eget. Condimentum lacinia quis vel eros donec ac odio tempor orci. Ornare aenean euismod elementum nisi quis eleifend quam. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. In fermentum posuere urna nec tincidunt. Commodo sed egestas egestas fringilla. Mauris vitae ultricies leo integer malesuada nunc vel risus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Faucibus et molestie ac feugiat sed lectus vestibulum. Aliquam faucibus purus in massa tempor nec feugiat. A lacus vestibulum sed arcu non odio euismod lacinia.</p>',
-		},
-		{
-			name: 'Lord Buddha',
-			slug: 'lord buddha',
-			category: 'Sculpture',
-			images: [
-				'https://i.postimg.cc/brsYQY3g/71rs5116f-EL-SY879.jpg',
-				'https://i.postimg.cc/PxdntVmj/717-MZx-Rc-CVL-SX679.jpg',
-				'https://i.postimg.cc/pTkbyQZn/71s1q9-FSwt-L-SX679.jpg',
-				'https://i.postimg.cc/2y6pWqc9/718-Thh-LDib-L-SX679.jpg',
-			],
-			price: 300,
-			brand: 'Lord Buddha',
-			rating: 0,
-			numReviews: 0,
-			countInStock: 20,
-			description:
-			'<p>Dummy Text:- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem nulla pharetra. Faucibus a pellentesque sit amet porttitor eget. Condimentum lacinia quis vel eros donec ac odio tempor orci. Ornare aenean euismod elementum nisi quis eleifend quam. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. In fermentum posuere urna nec tincidunt. Commodo sed egestas egestas fringilla. Mauris vitae ultricies leo integer malesuada nunc vel risus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Faucibus et molestie ac feugiat sed lectus vestibulum. Aliquam faucibus purus in massa tempor nec feugiat. A lacus vestibulum sed arcu non odio euismod lacinia.</p>',
-		},
 	],
 }
 
