@@ -9,11 +9,6 @@ const categories = [
 		imageSrc: 'https://i.postimg.cc/BbjxR1S8/rose3.jpg',
 	},
 	{
-		name: 'Trousers',
-		href: '/search?category=Trousers',
-		imageSrc: 'https://i.postimg.cc/SKHpQqCq/rise2.jpg',
-	},
-	{
 		name: 'T-Shirts',
 		href: '/search?category=T-shirts',
 		imageSrc: 'https://i.postimg.cc/NMf87zZk/naruto3.jpg',
@@ -22,6 +17,11 @@ const categories = [
 		name: 'Jackets',
 		href: '/search?category=Jackets',
 		imageSrc: 'https://i.postimg.cc/3Jw6JLRp/bomber3.jpg',
+	},
+	{
+		name: 'Trousers',
+		href: '/search?category=Trousers',
+		imageSrc: 'https://i.postimg.cc/SKHpQqCq/rise2.jpg',
 	},
 ]
 
