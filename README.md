@@ -15,4 +15,4 @@
 
 ## Demo
 
-[Click here](https://.xugaadu.in/) to see live.
+[Click here](https://xugaadu.in/) to see live.
